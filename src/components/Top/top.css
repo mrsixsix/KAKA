@@ -1,0 +1,21 @@
+.top{
+  width: 100vw;
+  height: 10vh;
+  background-color: #fff;
+  background-image: url(../images/top.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 10vh;
+  display: flex;
+}
+.back{
+  width: 8%;
+  height: 45%;
+  margin-top: 5%;
+  margin-left: 4%
+}
+.top span{
+  color: #fff;
+  line-height: 10vh;
+  font-size: 1.6em;
+  margin-left: 30%;
+}

@@ -1,0 +1,141 @@
+.task{
+  background-color: #FFF;
+  height: 100vh;
+  position: relative;
+}
+.task-maintop{
+  background-color: #F4F4F4;
+  padding-bottom: 1vh;
+}
+.task-hp{
+  width: 24vw;
+  height: 13.3vh;
+  margin-top: 3vh;
+  margin: 0 auto;
+  margin-bottom: 3vh;
+}
+.task-toptop{
+  background-color: #fff;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.task-name{
+  justify-content:center;
+  display: flex;
+  background-color: #fff;
+  margin-bottom: 2vh;
+}
+.task-midmid{
+  padding-top: 2vh;
+  background-color: #fff;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2vh;
+}
+.task-mid-content{
+  margin-left: 8vw;
+}
+.task-mid-content img{
+  margin-top: 1vh;
+  width: 40vw;
+}
+.task-map .b-icon{
+  width: 11vw;
+  height: 6.4vh;
+  margin-bottom: 4vh;
+}
+.task-map-price{
+  font-size: 5em;
+  color: #000;
+}
+.task-map-span{
+  color: #333;
+}
+.task-toptop{
+  margin-bottom: 3vh;
+}
+.task-botbot{
+  background-color: #fff;
+}
+.task-map .locationless{
+  margin-left: 2vw;
+}
+.task-botbot{
+  margin-top: 2vh;
+}
+.task-botbot span{
+  width: 89vw;
+  height: 7vh;
+  display: block;
+  margin: 0 auto;
+  background-image: url("../images/task-img.png");
+  background-repeat: no-repeat;
+  background-size: 89vw 7vh;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 7vh;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 15vh;
+}
+.warning{
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 1);
+  opacity: 0.9;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+.warning-img{
+  width: 14%;
+  margin-left: 43%;
+  margin-top: 15vh;
+}
+.warning h1,.warning p{
+  color: #fff;
+  margin-left: 10vw;
+  font-size: 0.8em;
+  width: 80vw;
+}
+.warning-line{
+  background-color: #fff;
+  width: 80vw;
+  height: 1px;
+  margin: 5vh auto;
+  display: block;
+}
+.warning-btn{
+  display: block;
+  width: 27vw;
+  height: 4vh;
+  background-image: url("../images/warning-btn.png");
+  background-repeat: no-repeat;
+  background-size: 27vw 4vh;
+  border-radius: 0.4em;
+  margin: 0 auto;
+  color: #000;
+  text-align: center;
+  line-height: 4vh;
+  cursor: pointer;
+  margin-top: 10vh;
+}
+
+.warning-check{
+  width: 6.3vw;
+  height: 3.45vh;
+
+}
+.warning>div{
+  display: flex;
+    margin-left: 38vw;
+    margin-top: 1vh;
+}
+.warning>div p{
+  margin-left: 5vw;
+  margin-top: 0.6vh;
+}

@@ -1,0 +1,35 @@
+.top .cancel{
+  margin-left: 5vw;
+}
+.reply-textarea{
+  padding-left: 3vw;
+  padding-top: 1vh;
+  line-height: 1.6em;
+  margin-top: 2vh;
+  width: 100vw;
+  height: 35vh;
+  border: none;
+}
+.reply-mid{
+  display: flex;
+  width: 100vw;
+  height: 8vh;
+  margin-top: 2vh;
+  background-color: #fff;
+}
+.reply-mid-left,.reply-mid-right,.reply-mid>img{
+  margin-top: 3vh;
+}
+.reply-mid-left{
+  margin-left: 5vw;
+  margin-right: 30vw;
+  color: #8C8C8C;
+}
+.reply-mid-right{
+  color: #CACACA;
+}
+.reply-btn{
+  width: 80vw;
+  display: block;
+  
+}
